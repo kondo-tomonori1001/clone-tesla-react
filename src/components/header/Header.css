@@ -1,0 +1,20 @@
+.header{
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+.header__right{
+  font-family: inherit;
+  text-transform: uppercase;
+}
+.header__right a{
+  color: #222;
+  text-decoration: none;
+}

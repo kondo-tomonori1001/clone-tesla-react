@@ -1,0 +1,23 @@
+.btn{
+  padding: 10px 70px;
+  border-radius: 100px;
+  opacity: 0.8;
+  color: #222;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: .3s;
+}
+.btn:hover{
+  transform: translateY(-5px);
+}
+.btn + .btn{
+  margin-left: 20px;
+}
+.btn--left{
+  background-color: #222;
+  color: #fff;
+}
+.btn--right{
+  background-color: #fff;
+}

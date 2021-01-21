@@ -1,0 +1,12 @@
+.gNav{
+  display: flex;
+  list-style: none;
+}
+.gNav__item + .gNav__item{
+  margin-left: 20px;
+}
+.gNav__link{
+  color: #222;
+  text-decoration: none;
+  text-transform: uppercase;
+}
